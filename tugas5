@@ -1,0 +1,293 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Welcome To Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/BachtiarDwiRizqianthoro/algoritma-struktur-data/blob/main/tugas5\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YCZHOW2x8z4R",
+        "outputId": "adb4b30b-672f-48a3-dd24-be562d560661",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#memuat fungsi\n",
+        "def biodata():\n",
+        "  print(\"Because I proud to make something new\")\n",
+        "\n",
+        "## pemanggilan fungsi \n",
+        "biodata()"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Because I proud to make something new\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "GxnDRDdr-5EG",
+        "outputId": "9a9d8481-50fe-44f5-86c4-bf665762c6c6",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#membuat fungsi \n",
+        "def hobi():\n",
+        "   print (\"I like programming\")\n",
+        "\n",
+        "## pemanggilan fungsi\n",
+        "hobi()"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I like programming\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "sTIiN7Gb_6i5",
+        "outputId": "3403c63a-40a8-4fb4-b5ef-632003746862",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "#membuat fungsi \n",
+        "def biodata():\n",
+        "  print(\"Because I pround to make something new\") \n",
+        "def hobi():\n",
+        "  print(\"I like Programming\") \n",
+        "##memanggil fungsi \n",
+        "hobi()\n",
+        "biodata()     "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I like Programming\n",
+            "Because I pround to make something new\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Xs5rDBFeBEFu",
+        "outputId": "c0b3e97a-5051-4529-8f77-df827e60c3fe",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#membuat fungsi\n",
+        "def perkenalan (nama):\n",
+        "  print(nama)\n",
+        "perkenalan (\"Bachtiar DWi Rizqianthoro\") \n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Bachtiar DWi Rizqianthoro\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "T6FMkzHVCrKb",
+        "outputId": "b6e421f8-7019-4874-e6e5-1d3b27f58051",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#membuat fungsi dengan 2 parameter\n",
+        "def luas_segitiga(alas,tinggi):\n",
+        "    luas = (alas * tinggi) / 2\n",
+        "    print (\"luas segitiga adalah\",luas);\n",
+        "#pemanggilan fungsi\n",
+        "luas_segitiga(10,20)    "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "luas segitiga adalah 100.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3W8LoHFsLOHV",
+        "outputId": "910eadba-2738-4515-f7bd-702e8f6ec78c",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "#membuat fungsi 2 parameter\n",
+        "def luas_persegipanjang(panjang,lebar):\n",
+        "    luas = (panjang * lebar)\n",
+        "    print (\"luas persegi panjang adalah\",luas);\n",
+        "#pemanggilan fungsi\n",
+        "luas_persegipanjang(5,10)    "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "luas persegi panjang adalah 50\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Bi0Rc_W6MvOx",
+        "outputId": "c5a55389-3d1f-4902-ceba-98c80e8dec03",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "def luas_balok(panjang,lebar):\n",
+        "    luas = panjang * lebar\n",
+        "    return luas\n",
+        "#pemanggilan fungsi\n",
+        "print (\"luas balok\",luas_balok(10,20));    "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "luas balok 200\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IRoExjxAP2fd",
+        "outputId": "0d12cf65-bb38-4eb8-ba2d-0ac4149c2168",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "def intvolume_balok(p,l,t):\n",
+        "    volume = p * l * t \n",
+        "    return volume \n",
+        "print (\"volume_balok\", volume_balok(20,10,5))  "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "volume_balok 1000\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "a-k9pqcES2Bw",
+        "outputId": "dac6d025-66fa-4b4f-ea1f-be80ddc5da4d",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        }
+      },
+      "source": [
+        "#rumus: sisi x sisi\n",
+        "def luas_persegi(sisi):\n",
+        "    luas = sisi * sisi\n",
+        "    return luas \n",
+        "\n",
+        "#rumus: sisi x sisi x sisi\n",
+        "def volume_balok(sisi):\n",
+        "    volume = luas_persegi(sisi)* sisi\n",
+        "    return volume \n",
+        "print (\"Luas persegi\",luas_persegi(10)) \n",
+        "print (\"volume balok\",volume_balok(20))            "
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Luas persegi 100\n",
+            "volume balok 8000\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
